@@ -1,0 +1,50 @@
+.DS_Store
+
+bin
+gen
+externalRootPath
+local.properties
+codesign.properties
+production-app-releases.keystore
+release.keystore
+release.keystore.info
+*.apk
+*.log
+*.hprof
+
+#.settings
+proguard
+tmp/
+appcompat
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+
+# Intelli J / Studio files
+!.idea
+.idea/*
+!.idea/scopes
+!.idea/icon.png
+!.idea/icon_dark.png
+*.iml
+
+# Functional Tests
+nosetests.xml
+*.pyc
+archive.zip
+functionalTests/snapshots/
+
+# Layout inspector
+/captures/*.li
+
+# Crashlytics
+true/
+
+# Script Output
+dependency-summary.txt
+ktlint-summary.xml
+pmd-summary.xml
+detekt-summary.xml
+checkstyle-summary.xml
